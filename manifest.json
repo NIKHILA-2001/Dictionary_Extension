@@ -1,0 +1,14 @@
+{
+    "name" : "Dictionary Extension",
+    "manifest_version":2,
+    "version" : "0.1",
+    "description" : "Dictionary",
+    "permissions" : ["webRequest","webRequestBlocking","<all_urls>"],
+    "icons":{
+      "128": "book.png",
+      "256": "256logo.png"
+    },
+    "browser_action":{
+      "default_popup":"index1.html"
+    }
+}
